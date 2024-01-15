@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img\favicon.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+ 
+    <style>
+        .custom-button {
+        background-color: transparent;
+        border-color: #586328;
+        color: #000000;
+        transition: background-color 0.3s, color 0.3s;
+      }
+  
+      .custom-button:hover {
+        background-color: #586328;
+        color: #000000;}
+        .contact-section {
+      background-color: #586328; /* Background color for the contact section */
+      padding: 50px 0; /* Adding padding for better visibility */
+      text-align: center;
+      color: #ffffff; /* Text color */
+    }
+    .contact-icons {
+      font-size: 36px; /* Icon size */
+      margin: 0 15px; /* Spacing between icons */
+      color: #ffffff; /* Set icon color */
+    }
+    .scroll-link {
+            cursor: pointer;
+        }
+    </style>
+    <title>Pushap Gandhi - Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navpils   navbar-expand-lg navbar-light" style="background-color: #586328;">
+      <div   class="container-fluid">
+       
+          <ul class="navbar-nav" >
+            <li class="nav-item">
+              <a class="nav-link active fw-bold fs-5 " aria-current="page" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 " href="https://medium.com/@pushapgandhi22101995">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 " href="resume\Pushap_Gandhi_Data_Science_Professional.pdf">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold fs-5 " href="#contact">Contact Me</a>
+            </li>
+          </ul>
+    
+      </div>
+    </nav>
+    <div class="contaier-fluid" style = "background-color:#d9e2b3 ;">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <h2>Grammar Error Corrector</h2> <br>
+                <h4>Project Overview</h4>
+                <p>
+                  Language translation remains a challenging task in the field of natural language 
+                  processing, requiring models that can effectively capture the nuances and context of 
+                  different languages. The objective of this project was to develop a robust Italian 
+                  to English language translation model, leveraging the power of attention mechanisms, 
+                  with a specific focus on the Long Attention Mechanism.
+                </p>
+
+                <p>
+                  The challenge in this task lay in preserving the semantic meaning of the source language 
+                  (Italian) while ensuring fluency and coherence in the translated output (English).
+                  Additionally, handling variations in sentence structure, word order, and idiomatic 
+                  expressions posed a significant challenge that needed to be addressed for the model 
+                  to deliver accurate and meaningful translations.
+                </p>
+                </div>
+        <div class="container mt-4">
+            <div class="d-flex justify-content-center align-items-center">
+                
+                <div class="col text-center">
+                    <i class="fab fa-medium"></i> <br>
+                    <a href="https://medium.com/towards-data-science/grammar-error-correction-af365dad794" target="_blank" class = "btn">Blog</a>
+                </div>
+                <div class="col text-center">
+                    <i class="fab fa-github"></i> <br>
+                    <a href="https://github.com/pushapgandhi/Grammer_error_correction" target="_blank" class = "btn">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+                
+                <h6 class="mt-5">Performace Metric</h6>
+                <p>
+                  To quantitatively evaluate the performance of the language translation model, the project utilized 
+                  the BLEU (Bilingual Evaluation Understudy) score.         
+                </p>
+
+               
+                    <h4 class="text-start mb-3 mt-3">Technologies Used</h4>
+                    <div class="d-flex justify-content-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <button class="btn custom-button mx-2">Natural Language Processing</button>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="btn custom-button mx-2">Attention Mechanism</button>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="btn custom-button mx-2">Sequence-to-Sequence Modeling</button>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="btn custom-button mx-2">Python</button>
+                            </li>
+                            <li class="list-inline-item">
+                                <button class="btn custom-button mx-2">Tensorflow/Keras</button>
+                            </li>
+                            <!-- Add other technologies as additional list items -->
+                        </ul>
+                    </div>
+             
+                
+     </div>  
+     </div>
+     </div>
+    </div>
+    
+     
+    
+                
+    <div class="container mt-5">
+        <h4 class="text-start mb-3">Project Details</h4>
+        
+        
+        <h5 class="mt-5" >Approach</h5>
+        
+        <p>
+          The crux of the project lay in implementing and fine-tuning the Long Attention Mechanism. 
+          Unlike traditional attention mechanisms, the Long Attention Mechanism was explored for its 
+          capability to capture long-range dependencies between words in a sentence. This was particularly 
+          crucial for handling complex sentence structures and maintaining context in translations.
+        </p>
+        <p>
+          Different variations of the Long Attention Mechanism were experimented with, including the concatenation 
+          of attention weights and the dot product of attention weights. These variations aimed to enhance 
+          the model's ability to focus on relevant parts of the input sentence during the translation process, 
+          thereby improving the overall quality of the generated translations.
+        </p>
+            <h5 class="mt-5" >Result</h5>
+            <div class="row">
+                <div class="col ">
+                    <li>General Model BLEU Score =  0.8372</li>
+                    <li>Encoder Decoder Model BLEU SCORE 0.8380</li>
+                    <li>Concat Model BLEU Score =  0.8376</li>
+                    <li>Dot Model BLUE Score =  0.8377</li>
+            </div>  
+            </div> 
+            <p>
+                <br>
+                
+            </p>
+
+</div>
+    <section class="contact-section" id = "contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Get in Touch</h2>
+              <p>Connect with me through the following platforms:</p>
+              <a href="https://www.linkedin.com/in/pg1995/" target="_blank" class="text-decoration-none text-dark">
+                <i class="fab fa-linkedin contact-icons"></i>
+              </a>
+              <a href="https://github.com/pushapgandhi" target="_blank" class="text-decoration-none text-dark">
+                <i class="fab fa-github contact-icons"></i>
+              </a>
+              <a href="pushapgandhi22101995@gmail.com" class="text-decoration-none text-dark">
+                <i class="fas fa-envelope contact-icons"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
